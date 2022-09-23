@@ -11,6 +11,11 @@ app.get("/", function (req, res) {
   res.send("<h1>Hello World!</h1>")
 })
 
+// define the first route
+app.get("/tech", function (req, res) {
+  res.send("<h1>Jasure Tech</h1>")
+})
+
 app.get("/.well-known/assetlinks.json", function (req, res) {
   const links = [
       {
