@@ -4,7 +4,6 @@ const app = express()
 
 // use the express-static middleware
 app.use(express.static("public"))
-app.set('json spaces', 4);
 
 // define the first route
 app.get("/", function (req, res) {
@@ -28,7 +27,7 @@ app.get("/.well-known/assetlinks.json", function (req, res) {
         }
       }
   ]
-  res.json(links);
+  res.send(JSON.stringify(links));
 })
 
 // start the server listening for requests
