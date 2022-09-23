@@ -24,7 +24,7 @@ app.get("/.well-known/assetlinks.json", function (req, res) {
           "namespace": "android_app",
           "package_name": "com.JaSure.qa",
           "sha256_cert_fingerprints":
-            ["C3:84:38:7A:63:90:BE:E4:68:5F:2F:B2:86:EE:B5:8C:3D:82:04:19:3C:92:3F:1D:06:22:52:78:D1:EC:CE:D6"]
+            ["91:1E:56:49:C9:04:04:9D:92:0A:E6:6B:63:68:48:78:3D:37:74:3A:FA:12:01:AF:5A:E0:8B:8C:8C:32:2B:FC"]
         }
       }
   ]
